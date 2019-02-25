@@ -1,0 +1,15 @@
+ <!-- Emmet -->
+    <!--div#myPage>div.myClass+ul#sampleId>li*7>a-->
+    <div id="myPage">
+        <div class="myClass"></div>
+        <ul id="sampleId">
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
+    </div>
+    <!-- Emmet -->

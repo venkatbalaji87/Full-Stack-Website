@@ -1,0 +1,84 @@
+/*---------------------
+BOOTSTRAP MEDIA QUERIES
+----------------------*/
+/*LARGE >=1200 purple
+MEDIUM >=992
+SMALL>=768PX
+XSMALL<768PX
+For small mobiles 480 and 320*/
+
+/* Large Devices (Desktop & Laptops) */
+@media (min-width: 1200px) {}
+
+/* Medium Devies (Landscape Tablets & Medium Desktops) */
+
+/* Mobile Menu */
+@media (min-width: 992px) and (max-width: 1214px) {
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 0;
+    }
+
+    .navbar-nav {
+        float: left;
+    }
+
+    .pt-nav-wrapper {
+        padding: 0;
+    }
+
+}
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 0;
+    }
+
+    .navbar-nav {
+        float: left;
+    }
+
+    .pt-nav-wrapper {
+        padding: 0;
+    }
+
+    #about-bg-diagonal {
+        float: right;
+        border-left: 0;
+        border-top: 0;
+        width: 50%;
+        height: 350px;
+        padding-left: 10px;
+    }
+
+    #about-content-box {
+        float: left;
+        width: 50%;
+        height: 350px;
+        text-align: justify;
+        padding-right: 10px;
+    }
+
+    #about-btn {
+        padding-left: 35%;
+    }
+
+    .counter-item {
+        padding: 25px 0;
+    }
+
+    #footer-copyrights {
+        text-align: center;
+    }
+}
+
+/* Extra Small Devices (Landscape Phones & Portraint Tablets) */
+@media (max-width:767px) {}
+
+/* Extra Small Devices (Smaller Devices) */
+@media (max-width: 480px) {}
+
+/* Extra Small Devices (Smaller Devices) */
+@media (max-width: 320px) {}
