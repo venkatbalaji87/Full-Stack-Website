@@ -75,10 +75,163 @@ For small mobiles 480 and 320*/
 }
 
 /* Extra Small Devices (Landscape Phones & Portraint Tablets) */
-@media (max-width:767px) {}
+@media (max-width:767px) {
+    /*Mobile Menu*/
+    .navbar{
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 0;
+    }
+
+    .navbar-nav{
+
+        float: left;
+    }
+
+    .pt-nav-wrapper{
+        padding: 0;
+    }
+
+    /* home */
+    #home #home-heading h3{
+        font-size: 30px;
+    }
+
+    /*Button*/
+    .btn-general {
+        padding: 6px 22px;
+        font-size: 16px;
+    }
+
+
+    /*About remove diagonal border */
+    #about-bg-diagonal{
+        border-left: 0px;
+        border-top: 0px;
+        width: 100%;
+        height: 350px;
+        padding-left: 10px;
+    }
+
+    #about-content-box {
+        width: 100%;
+        height: 350px;
+        text-align: justify;
+    }
+
+    /*Image (work section)*/
+    .img-wrapper img{
+        min-width: 100%;
+
+    }
+}
 
 /* Extra Small Devices (Smaller Devices) */
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    /*Mobile Menu*/
+    .navbar{
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 0;
+    }
+
+    .navbar-nav{
+
+        float: left;
+    }
+
+    .pt-nav-wrapper{
+        padding: 0;
+    }
+
+    /* home */
+    #home #home-heading h3{
+        font-size: 30px;
+    }
+
+    /*Button*/
+    .btn-general {
+        padding: 6px 22px;
+        font-size: 16px;
+    }
+
+
+    /*About remove diagonal border */
+    #about-bg-diagonal{
+        border-left: 0px;
+        border-top: 0px;
+        width: 100%;
+        height: 350px;
+        padding-left: 10px;
+    }
+
+    #about-content-box {
+        width: 100%;
+        height: 350px;
+        text-align: justify;
+    }
+
+    /*Image (work section)*/
+    .img-wrapper img{
+        min-width: 100%;
+
+    }
+
+    /* Testimonials section */
+
+/*
+    blockquote {
+        margin: 0 0 10px;
+    }
+*/
+
+    .testimonial blockquote{
+          padding: 6px 50px;
+    }
+    .testimonial blockquote:before {
+        left:10px;
+    }
+    .testimonial blockquote:after {
+        right:10px;
+    }
+    .testimonial blockquote p {
+        font-size: 14px;
+    }
+
+    /*counter*/
+    .counter-item {
+        padding: 20px 0;
+    }
+    /*Footer*/
+     #footer-copyrights {
+        text-align: center;
+    }
+
+}
 
 /* Extra Small Devices (Smaller Devices) */
-@media (max-width: 320px) {}
+@media (max-width: 320px) {
+    /*service*/
+    .service-item-icon i{
+        width:58px;
+        height:58px;
+        padding: 7px 7px 5px 14px;
+    }
+    .service-item-desc p
+    {
+        text-align: justify;
+        padding-left: 0;
+    }
+    .service-item{
+        padding: 7px 0;
+    }
+
+    /*abt btn*/
+    #about-btn {
+        padding-left: 30%;
+    }
+/*content title*/
+    .content-title h3
+    {
+        font-size:22px;
+    }
+}
+
